@@ -1,0 +1,14 @@
+raceonline:
+  ruby_version: 2.0.0
+  environment: production # RAILS_ENV
+  monitoring_email: info@giedriusr.lt
+  domains:
+    - raceonline.shellyapp.com
+  servers:
+    app1:
+      size: large
+      thin: 4
+      whenever: on
+      delayed_job: 1
+      databases:
+        - postgresql

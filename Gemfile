@@ -22,6 +22,7 @@ gem 'best_in_place'
 gem 'carrierwave'
 gem 'rmagick'
 gem 'chosen-rails'
+gem 'shelly-dependencies'
 
 group :doc do
   gem 'sdoc', require: false

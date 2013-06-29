@@ -9,6 +9,6 @@ raceonline:
       size: large
       thin: 4
       whenever: on
-      delayed_job: 1
+      # delayed_job: 1
       databases:
         - postgresql

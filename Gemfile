@@ -23,6 +23,9 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'chosen-rails'
 gem 'shelly-dependencies'
+# gem 'delayed_job'
+# gem 'delayed_job_active_record'
+# gem 'delayed_job_web'
 
 group :doc do
   gem 'sdoc', require: false

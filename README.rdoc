@@ -1,4 +1,8 @@
-== README
+{<img src="https://codeclimate.com/github/giedriusr/raceonline.png" />}[https://codeclimate.com/github/giedriusr/raceonline]
+
+Codeship Status for {giedriusr/raceonline}[https://www.codeship.io/projects/4647] https://www.codeship.io/projects/eb4f1150-c38a-0130-4138-4e790578273e/status?branch=master
+
+== RACE ONLINE README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

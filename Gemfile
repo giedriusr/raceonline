@@ -37,7 +37,7 @@ end
 
 group :development do
   gem 'letter_opener'
-  gem 'brakeman'
+  # gem 'brakeman'
   gem 'better_errors'
   gem 'binding_of_caller'
 end

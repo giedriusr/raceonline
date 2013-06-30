@@ -33,8 +33,6 @@ GEM
     arel (4.0.0)
     atomic (1.1.10)
     bcrypt-ruby (3.0.1)
-    best_in_place (0.2.3)
-      rails (>= 3.0.0)
     better_errors (0.9.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -289,7 +287,6 @@ PLATFORMS
 
 DEPENDENCIES
   airbrake
-  best_in_place
   better_errors
   binding_of_caller
   brakeman

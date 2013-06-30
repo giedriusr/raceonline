@@ -18,7 +18,6 @@ gem 'whenever', :require => false
 gem 'gravatar_image_tag'
 gem 'airbrake'
 gem 'newrelic_rpm'
-gem 'best_in_place'
 gem 'carrierwave'
 gem 'rmagick'
 gem 'chosen-rails'

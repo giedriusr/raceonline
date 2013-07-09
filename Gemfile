@@ -50,7 +50,7 @@ group :test do
   gem 'email_spec'
 
   gem 'guard-rspec'
-  gem 'spork'
+  gem 'spork', '~> 1.0rc'
   gem 'guard-spork'
   gem 'fakeweb'
 end

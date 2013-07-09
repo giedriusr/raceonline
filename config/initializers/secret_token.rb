@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Raceonline::Application.config.secret_key_base = '69028c414c971aca662052cbe81f7dbdd5e74d47dbf53f76a2f498fcfbac80b229f45a236b199d4a791223d26d7cb724ac11ec88440d912e6c6b970e004f4680'
+Raceonline::Application.config.secret_key_base = ENV['raceonline_secret_token']

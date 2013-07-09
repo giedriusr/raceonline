@@ -23,6 +23,7 @@ gem 'rmagick'
 gem 'chosen-rails'
 gem 'shelly-dependencies'
 gem 'sidekiq'
+gem 'figaro'
 
 group :doc do
   gem 'sdoc', require: false

@@ -116,6 +116,7 @@ GEM
       childprocess (>= 0.2.3)
       guard (>= 1.1)
       spork (>= 0.8.4)
+    hashie (2.0.5)
     hike (1.2.3)
     i18n (0.6.4)
     jbuilder (1.4.2)
@@ -148,6 +149,9 @@ GEM
     newrelic_rpm (3.6.5.130)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    omniauth (1.1.4)
+      hashie (>= 1.2, < 3)
+      rack
     orm_adapter (0.4.0)
     pg (0.15.1)
     polyglot (0.3.3)
@@ -287,6 +291,7 @@ DEPENDENCIES
   launchy
   letter_opener
   newrelic_rpm
+  omniauth
   pg
   rails (= 4.0.0)
   rails-i18n

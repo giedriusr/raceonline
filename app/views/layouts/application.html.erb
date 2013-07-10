@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>raceonline.lt - lenktynių rezultatai gyvai</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Automobilių sporto lenktynių rezultatai internete!">
-  <meta name="author" content="Giedrius Rimkus, Giedrius Šileikis, Darius Šileikis">
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+  <head>
+    <meta charset="utf-8">
+    <title>raceonline.lt - lenktynių rezultatai gyvai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Automobilių sporto lenktynių rezultatai internete!">
+    <meta name="author" content="Giedrius Rimkus, Giedrius Šileikis, Darius Šileikis">
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
 
-  <!--[if lt IE 9]>
-  <script src="/assets/js/html5shiv.js"></script>
-  <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.js"></script>
+    <![endif]-->
 
-  <%= render 'google_analytics' %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+    <%= render 'google_analytics' %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
 </html>

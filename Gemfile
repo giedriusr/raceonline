@@ -15,7 +15,7 @@ gem 'kaminari'
 gem 'rails-i18n'
 gem 'faker'
 gem 'twitter-bootstrap-rails'
-gem 'whenever', :require => false
+gem 'whenever', require: false
 gem 'gravatar_image_tag'
 gem 'airbrake'
 gem 'newrelic_rpm'
@@ -26,6 +26,7 @@ gem 'shelly-dependencies'
 gem 'sidekiq'
 gem 'figaro'
 gem 'omniauth-twitter'
+gem 'coveralls', require: false
 
 group :doc do
   gem 'sdoc', require: false

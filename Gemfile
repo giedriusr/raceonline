@@ -25,6 +25,7 @@ gem 'chosen-rails'
 gem 'shelly-dependencies'
 gem 'sidekiq'
 gem 'figaro'
+gem 'omniauth-twitter'
 
 group :doc do
   gem 'sdoc', require: false
